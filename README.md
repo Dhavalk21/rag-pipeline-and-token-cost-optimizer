@@ -6,9 +6,8 @@ An interactive, strategic product management dashboard designed to model and bal
 
 🎨 How it Works (System Architecture)
 
-GitHub automatically translates the code block below into a beautiful, interactive visual infographic representing the data flow of a Retrieval-Augmented Generation (RAG) system:
+    graph TD
 
-graph TD
     %% Define Nodes
     RawData[Raw Knowledge Base <br> PDF, Wikis, Docs] -->|1. Slicing & Chunking| Chunking[Text Chunks <br> Sized with Overlap]
     Chunking -->|Vectorization| VectorDB[(Vector Database <br> Pinecone, Milvus, Postgres)]
