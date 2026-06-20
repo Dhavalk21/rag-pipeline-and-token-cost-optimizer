@@ -78,5 +78,3 @@ Tailwind CSS UI: Clean layout, built with professional color systems, responsive
 Interactive Tooltips: Accessible, built-in definitions next to all parameters to guide non-technical users.
 
 Markdown Memo Export: Fully automated strategic executive memo compiler, allowing one-click copying of planning decisions directly to PRDs or Notion sheets.
-
-© 2026 Dhaval Kareliya. All rights reserved.
