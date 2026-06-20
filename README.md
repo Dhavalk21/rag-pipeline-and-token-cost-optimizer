@@ -10,11 +10,11 @@ An interactive, strategic product management dashboard designed to model and bal
 
 * **Search & Retrieve:** When a query arrives, the system searches the Vector DB for the best matches (Top-K). These snippets are bundled alongside the original query.
 
-T* **he Balance Trade-Off:** The LLM uses these snippets to answer the question without hallucinating. Larger models and bigger contexts yield excellent answers but increase cost and take longer to respond.
+* **Balance Trade-Off:** The LLM uses these snippets to answer the question without hallucinating. Larger models and bigger contexts yield excellent answers but increase cost and take longer to respond.
 
 ## 🌟 Core PM Competencies Demonstrated
 
-* **AI System Design & Trade-Offs:** Understands and simulates the relationship between data chunking sizes, overlap, retrieval metrics (Top-$K$), database indexing, and downstream context window impact.
+* **AI System Design & Trade-Offs:** Understands and simulates the relationship between data chunking sizes, overlap, retrieval metrics (Top-K), database indexing, and downstream context window impact.
 
 * **Token Unit Economics & Modeling:** Projects precise API costs by tracking token consumption patterns for advanced model APIs (like Gemini 3, GPT-5, and Claude 4.5/4.6 series).
 
@@ -26,7 +26,7 @@ T* **he Balance Trade-Off:** The LLM uses these snippets to answer the question 
 
 This optimizer runs continuous modeling using verified real-world pricing and architectural trends:
 
-* **Retrieval Recall Accuracy Approximation:** Modeled using an exponential convergence curve relative to the total tokens retrieved (Chunk Size $\times$ Top-$K$), penalized by lower chunk overlaps:
+* **Retrieval Recall Accuracy Approximation:** Modeled using an exponential convergence curve relative to the total tokens retrieved (Chunk Size $\times$ Top-K), penalized by lower chunk overlaps:
 
 $$\mathrm{Accuracy} \approx 1 - e^{-0.0007 \times (\mathrm{Chunk\ Size} \times K)} \times (1 - \mathrm{Overlap} \times 0.15)$$
 
