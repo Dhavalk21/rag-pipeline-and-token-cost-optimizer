@@ -5,8 +5,8 @@ An interactive, strategic product management dashboard designed to model and bal
 ## 🔗 Live Link: Launch the Interactive Simulator Here
 # 🎨 How it Works (System Architecture)
 
-    graph TD
-
+```mermaid
+ graph TD
     %% Define Nodes
     RawData[Raw Knowledge Base <br> PDF, Wikis, Docs] -->|1. Slicing & Chunking| Chunking[Text Chunks <br> Sized with Overlap]
     Chunking -->|Vectorization| VectorDB[(Vector Database <br> Pinecone, Milvus, Postgres)]
@@ -28,7 +28,7 @@ An interactive, strategic product management dashboard designed to model and bal
     style LLMInput fill:#fae8ff,stroke:#c084fc,stroke-width:2px,color:#6b21a8
     style LLM fill:#dcfce7,stroke:#10b981,stroke-width:2px,color:#14532d
     style FinalResponse fill:#fef9c3,stroke:#eab308,stroke-width:2px,color:#713f12
-
+```
 
 # 📋 Three Steps of RAG Sizing:
 
