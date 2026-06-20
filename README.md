@@ -4,7 +4,7 @@ An interactive, strategic product management dashboard designed to model and bal
 
 ### 🔗 Live Link: [View Interactive App Here](https://dhavalk21.github.io/rag-pipeline-and-token-cost-optimizer/)
 
-# 📋 Three Steps of RAG Sizing:
+## 📋 Three Steps of RAG Sizing:
 
 * **Slicing & Chunking:** Long text resources are diced into structured, overlapping text segments (Chunks). This preserves key sentence context so that ideas aren't cut in half.
 
@@ -12,7 +12,7 @@ An interactive, strategic product management dashboard designed to model and bal
 
 T* **he Balance Trade-Off:** The LLM uses these snippets to answer the question without hallucinating. Larger models and bigger contexts yield excellent answers but increase cost and take longer to respond.
 
-# 🌟 Core PM Competencies Demonstrated
+## 🌟 Core PM Competencies Demonstrated
 
 * **AI System Design & Trade-Offs:** Understands and simulates the relationship between data chunking sizes, overlap, retrieval metrics (Top-$K$), database indexing, and downstream context window impact.
 
@@ -20,9 +20,9 @@ T* **he Balance Trade-Off:** The LLM uses these snippets to answer the question 
 
 * **Technical Infrastructure Strategy:** Models the financial and latency differences of running vector databases on local edge embeddings (Chroma) vs. managed cloud serverless or dedicated enterprise clusters.
 
-E* **xecutive Decision Briefs:** Translates complex system variables into direct, clear, and actionable planning recommendations for engineering, finance, and product stakeholders.
+* **Executive Decision Briefs:** Translates complex system variables into direct, clear, and actionable planning recommendations for engineering, finance, and product stakeholders.
 
-# ⚙️ Mathematical & Economic Foundations
+## ⚙️ Mathematical & Economic Foundations
 
 This optimizer runs continuous modeling using verified real-world pricing and architectural trends:
 
@@ -40,7 +40,7 @@ $$\mathrm{Latency} = \mathrm{TTFT}_{\mathrm{Model}} + \mathrm{Search}_{\mathrm{D
 
 $$\mathrm{Cost}_{\mathrm{Query}} = (\mathrm{Input\ Tokens} \times \mathrm{Price}_{\mathrm{Input}}) + (\mathrm{Output\ Tokens} \times \mathrm{Price}_{\mathrm{Output}})$$
 
-# 🎨 How it Works (System Architecture)
+## 🎨 How it Works (System Architecture)
 
 ```mermaid
  graph TD
@@ -68,7 +68,7 @@ $$\mathrm{Cost}_{\mathrm{Query}} = (\mathrm{Input\ Tokens} \times \mathrm{Price}
 ```
 
 
-# 🚀 Technical Architecture
+## 🚀 Technical Architecture
 
 * **Responsive SVG Chart:** Dynamic rendering of the Pareto Efficiency Frontier, plotting where current pipeline configurations sit on the cost-to-accuracy spectrum.
 
