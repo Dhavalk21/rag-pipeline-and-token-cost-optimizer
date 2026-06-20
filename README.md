@@ -2,7 +2,7 @@
 
 An interactive, strategic product management dashboard designed to model and balance retrieval accuracy (recall), end-to-end user latency, and token consumption costs across modern enterprise Large Language Models (LLMs).
 
-### 🔗 Live Link: [Launch the Interactive Simulator Here](https://YOUR_GITHUB_USERNAME.github.io/rag-token-cost-optimizer/)
+### 🔗 Live Link: [Launch the Interactive Simulator Here](https://dhavalk21.github.io/rag-pipeline-and-token-cost-optimizer/)
 
 ## 🌟 Core PM Competencies Demonstrated
 
