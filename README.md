@@ -1,10 +1,9 @@
-🤖 RAG Pipeline Performance & Token Cost Simulator
+# 🤖 RAG Pipeline Performance & Token Cost Simulator
 
 An interactive, strategic product management dashboard designed to model and balance retrieval accuracy (recall), end-to-end user latency, and token consumption costs across modern enterprise Large Language Models (LLMs).
 
-🔗 Live Link: Launch the Interactive Simulator Here
-
-🎨 How it Works (System Architecture)
+## 🔗 Live Link: Launch the Interactive Simulator Here
+# 🎨 How it Works (System Architecture)
 
     graph TD
 
@@ -31,7 +30,7 @@ An interactive, strategic product management dashboard designed to model and bal
     style FinalResponse fill:#fef9c3,stroke:#eab308,stroke-width:2px,color:#713f12
 
 
-📋 Three Steps of RAG Sizing:
+# 📋 Three Steps of RAG Sizing:
 
 Slicing & Chunking: Long text resources are diced into structured, overlapping text segments (Chunks). This preserves key sentence context so that ideas aren't cut in half.
 
@@ -39,7 +38,7 @@ Search & Retrieve: When a query arrives, the system searches the Vector DB for t
 
 The Balance Trade-Off: The LLM uses these snippets to answer the question without hallucinating. Larger models and bigger contexts yield excellent answers but increase cost and take longer to respond.
 
-🌟 Core PM Competencies Demonstrated
+# 🌟 Core PM Competencies Demonstrated
 
 AI System Design & Trade-Offs: Understands and simulates the relationship between data chunking sizes, overlap, retrieval metrics (Top-$K$), database indexing, and downstream context window impact.
 
@@ -49,7 +48,7 @@ Technical Infrastructure Strategy: Models the financial and latency differences 
 
 Executive Decision Briefs: Translates complex system variables into direct, clear, and actionable planning recommendations for engineering, finance, and product stakeholders.
 
-⚙️ Mathematical & Economic Foundations
+# ⚙️ Mathematical & Economic Foundations
 
 This optimizer runs continuous modeling using verified real-world pricing and architectural trends:
 
@@ -70,7 +69,7 @@ API Token Cost Formula:
 
 $$\mathrm{Cost}_{\mathrm{Query}} = (\mathrm{Input\ Tokens} \times \mathrm{Price}_{\mathrm{Input}}) + (\mathrm{Output\ Tokens} \times \mathrm{Price}_{\mathrm{Output}})$$
 
-🚀 Technical Architecture
+# 🚀 Technical Architecture
 
 Responsive SVG Chart: Dynamic rendering of the Pareto Efficiency Frontier, plotting where current pipeline configurations sit on the cost-to-accuracy spectrum.
 
@@ -79,8 +78,5 @@ Tailwind CSS UI: Clean layout, built with professional color systems, responsive
 Interactive Tooltips: Accessible, built-in definitions next to all parameters to guide non-technical users.
 
 Markdown Memo Export: Fully automated strategic executive memo compiler, allowing one-click copying of planning decisions directly to PRDs or Notion sheets.
-
-
-GitHub: Check out my GitHub Portfolio
 
 © 2026 Dhaval Kareliya. All rights reserved.
