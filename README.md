@@ -67,7 +67,6 @@ $$\mathrm{Cost}_{\mathrm{Query}} = (\mathrm{Input\ Tokens} \times \mathrm{Price}
     style FinalResponse fill:#fef9c3,stroke:#eab308,stroke-width:2px,color:#713f12
 ```
 
-
 ## 🚀 Technical Architecture
 
 * **Responsive SVG Chart:** Dynamic rendering of the Pareto Efficiency Frontier, plotting where current pipeline configurations sit on the cost-to-accuracy spectrum.
