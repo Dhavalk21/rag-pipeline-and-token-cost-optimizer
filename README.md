@@ -7,19 +7,14 @@ An interactive, strategic product management dashboard designed to model and bal
 ## 📋 Three Steps of RAG Sizing:
 
 * **Slicing & Chunking:** Long text resources are diced into structured, overlapping text segments (Chunks). This preserves key sentence context so that ideas aren't cut in half.
-
 * **Search & Retrieve:** When a query arrives, the system searches the Vector DB for the best matches (Top-K). These snippets are bundled alongside the original query.
-
 * **Balance Trade-Off:** The LLM uses these snippets to answer the question without hallucinating. Larger models and bigger contexts yield excellent answers but increase cost and take longer to respond.
 
 ## 🌟 Core PM Competencies
 
 * **AI System Design & Trade-Offs:** Understands and simulates the relationship between data chunking sizes, overlap, retrieval metrics (Top-K), database indexing, and downstream context window impact.
-
 * **Token Unit Economics & Modeling:** Projects precise API costs by tracking token consumption patterns for advanced model APIs (like Gemini 3, GPT-5, and Claude 4.5/4.6 series).
-
 * **Technical Infrastructure Strategy:** Models the financial and latency differences of running vector databases on local edge embeddings (Chroma) vs. managed cloud serverless or dedicated enterprise clusters.
-
 * **Executive Decision Briefs:** Translates complex system variables into direct, clear, and actionable planning recommendations for engineering, finance, and product stakeholders.
 
 ## ⚙️ Mathematical & Economic Foundations
@@ -70,9 +65,7 @@ $$\mathrm{Cost}_{\mathrm{Query}} = (\mathrm{Input\ Tokens} \times \mathrm{Price}
 ## 🚀 Technical Architecture
 
 * **Responsive SVG Chart:** Dynamic rendering of the Pareto Efficiency Frontier, plotting where current pipeline configurations sit on the cost-to-accuracy spectrum.
-
 * **Tailwind CSS UI:** Clean layout, built with professional color systems, responsive grids, and visual depth.
-
 * **Interactive Tooltips:** Accessible, built-in definitions next to all parameters to guide non-technical users.
 
 * **Markdown Memo Export:** Fully automated strategic executive memo compiler, allowing one-click copying of planning decisions directly to PRDs or Notion sheets.
