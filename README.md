@@ -67,5 +67,4 @@ $$\mathrm{Cost}_{\mathrm{Query}} = (\mathrm{Input\ Tokens} \times \mathrm{Price}
 * **Responsive SVG Chart:** Dynamic rendering of the Pareto Efficiency Frontier, plotting where current pipeline configurations sit on the cost-to-accuracy spectrum.
 * **Tailwind CSS UI:** Clean layout, built with professional color systems, responsive grids, and visual depth.
 * **Interactive Tooltips:** Accessible, built-in definitions next to all parameters to guide non-technical users.
-
 * **Markdown Memo Export:** Fully automated strategic executive memo compiler, allowing one-click copying of planning decisions directly to PRDs or Notion sheets.
