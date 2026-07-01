@@ -12,7 +12,7 @@ An interactive, strategic product management dashboard designed to model and bal
 
 * **Balance Trade-Off:** The LLM uses these snippets to answer the question without hallucinating. Larger models and bigger contexts yield excellent answers but increase cost and take longer to respond.
 
-## 🌟 Core PM Competencies Demonstrated
+## 🌟 Core PM Competencies
 
 * **AI System Design & Trade-Offs:** Understands and simulates the relationship between data chunking sizes, overlap, retrieval metrics (Top-K), database indexing, and downstream context window impact.
 
